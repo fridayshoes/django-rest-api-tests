@@ -1,3 +1,5 @@
+Django SETUP
+
 Think of a Django project as a City, and each App as a District. To make the city work, you need to build the districts, tell the City Hall where they are, and then set up the "receptionist" (views) and "address book" (URLs) for each one.
 
 Here is the clean, step-by-step flow of how these pieces fit together.
@@ -56,3 +58,11 @@ Outer urls.py sees /appone/ and says: "I know that place! Go talk to the appone.
 App urls.py sees the remaining empty path '' and says: "That’s the home page! Go talk to the home function in views.py."
 
 App views.py runs the home function and sends back the message: "You've reached the AppOne District!"
+
+Testing APIs
+
+http://127.0.0.1:8000/api/items/ - List of items
+
+http://127.0.0.1:8000/all/math/fact/ - Factorial of a number
+
+http://127.0.0.1:8000/all/array/odd/ - Odd numbers
