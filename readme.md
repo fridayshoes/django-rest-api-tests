@@ -63,6 +63,6 @@ Testing APIs
 
 http://127.0.0.1:8000/api/items/ - List of items
 
-http://127.0.0.1:8000/all/math/fact/ - Factorial of a number
+http://127.0.0.1:8000/api/math/fact/ - Factorial of a number
 
-http://127.0.0.1:8000/all/array/odd/ - Odd numbers
+http://127.0.0.1:8000/api/array/odd/ - Odd numbers
